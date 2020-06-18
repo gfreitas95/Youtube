@@ -56,15 +56,63 @@
 		ECA6463A249C1B5C00ED82DB /* Youtube */ = {
 			isa = PBXGroup;
 			children = (
-				ECA6463B249C1B5C00ED82DB /* AppDelegate.swift */,
-				ECA6463D249C1B5C00ED82DB /* SceneDelegate.swift */,
-				ECA6463F249C1B5C00ED82DB /* ViewController.swift */,
-				ECA64641249C1B5C00ED82DB /* Main.storyboard */,
+				ECA64651249C223400ED82DB /* Storyboards */,
+				ECA6464F249C220A00ED82DB /* Delegates */,
+				ECA64650249C221B00ED82DB /* ViewControllers */,
+				ECA64652249C225300ED82DB /* Views */,
+				ECA64653249C226200ED82DB /* Models */,
+				ECA64654249C227300ED82DB /* Helpers */,
 				ECA64644249C1B6000ED82DB /* Assets.xcassets */,
-				ECA64646249C1B6000ED82DB /* LaunchScreen.storyboard */,
 				ECA64649249C1B6000ED82DB /* Info.plist */,
 			);
 			path = Youtube;
+			sourceTree = "<group>";
+		};
+		ECA6464F249C220A00ED82DB /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				ECA6463B249C1B5C00ED82DB /* AppDelegate.swift */,
+				ECA6463D249C1B5C00ED82DB /* SceneDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		ECA64650249C221B00ED82DB /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				ECA6463F249C1B5C00ED82DB /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		ECA64651249C223400ED82DB /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				ECA64646249C1B6000ED82DB /* LaunchScreen.storyboard */,
+				ECA64641249C1B5C00ED82DB /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		ECA64652249C225300ED82DB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		ECA64653249C226200ED82DB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		ECA64654249C227300ED82DB /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
